@@ -18,6 +18,8 @@ First copy or get code from github repository
    ```
 
 2. Then run the code ```bash ./monitor-mode.py```
+
+
 Note :: You can add shostcut to system using this commmand ```bash sudo cp monitor-mode.py /usr/bin```
 ## Modes (manual or cli)
 
