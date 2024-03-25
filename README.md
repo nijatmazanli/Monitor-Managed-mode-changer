@@ -2,9 +2,6 @@
 
 This code helps us change wifi card state(monitor to managed, or or on the contrary)
 
-* Do this
-* Deal with that
-
 ## Download and set up
 
 First copy or get code from github repository
