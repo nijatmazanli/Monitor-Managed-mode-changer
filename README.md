@@ -17,10 +17,16 @@ First copy or get code from github repository
    chmod +x monitor-mode.py
    ```
 
-2. Then run the code ```bash ./monitor-mode.py```
+2. Then run the code
+```bash
+./monitor-mode.py
+```
 
 
-Note :: You can add shostcut to system using this commmand ```bash sudo cp monitor-mode.py /usr/bin```
+Note :: You can add shostcut to system using this commmand
+```bash
+sudo cp monitor-mode.py /usr/bin
+```
 ## Modes (manual or cli)
 
 We have two modes. You can see these in help menu
@@ -37,7 +43,11 @@ Options:
 
 This is list of them:
 
-* Manual mode ```bash ./monitor-mode.py``` : In manual mode, you can see list of active interfaces like this:
+* Manual mode
+```bash
+ ./monitor-mode.py
+  ```
+: In manual mode, you can see list of active interfaces like this:
 
 ```text
 ┌──(.venv)─(user㉿user)-[~]
@@ -54,7 +64,11 @@ Select the interface :: (Target interface)
 
 Then program does it automatically. If your device is in managed mode, program changes it to manual mode or vice versa.
 
-* Normal mode ```bash ./monitor-mode.py -i <interface>``` : In normal mode, just write ```text -i <interface name> ```
+* Normal mode
+  ```bash
+  ./monitor-mode.py -i <interface>
+  ```
+   : In normal mode, just write ```text -i <interface name> ```
   after the program name. Then program does it automatically. If your device is in managed mode, program changes it to
   manual mode or vice versa.
 
