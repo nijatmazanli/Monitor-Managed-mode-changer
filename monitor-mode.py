@@ -25,14 +25,18 @@ try:
     def enable(interface):
         subprocess.call(["sudo", "ifconfig", interface, "down"])
         subprocess.call(["sudo", "iwconfig", interface, "mode", "monitor"])
-        subprocess.call(["sudo", "ifconfig", interface, "up"])
+        subprocess.call(["sudo","ip", "link", "set",interface,"name",interface+"mon"])
+        subprocess.call(["sudo", "ifconfig", interface+"mon", "up"])
         print("Enabled monitor mode in ",interface)
     
     def disable(interface):
+
         subprocess.call(["sudo", "ifconfig", interface, "down"])
         subprocess.call(["sudo", "iwconfig", interface, "mode", "managed"])
-        subprocess.call(["sudo", "ifconfig", interface, "up"])
-        print("Enabled manager mode in ",interface)
+
+        subprocess.call(["sudo","ip", "link", "set",interface,"name",interface[:-3]])
+        subprocess.call(["sudo", "ifconfig", interface[:-3], "up"])
+        print("Enabled manager mode in ",interface[:-3])
     
     def user_ui():
         subprocess.call(["sudo", "ifconfig", "-s"])
