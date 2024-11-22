@@ -51,7 +51,7 @@ This is list of them:
 └─$ ifconfig -s
 Iface      MTU    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg
 <intfc>          65536        0      0      0 0             0      0      0      0 BMU
-<intfc>         65536      697      0      0 0           697      0      0      0 LRU
+<intfc>          65536      697      0      0 0           697      0      0      0 LRU
 <intfc>          65536        0      0      0 0            92      0      0      0 BMRU
 <intfc>          65536        0      0      0 0            92      0      0      0 BMRU
 <intfc>          65536  1386150      0      0 0        481192      0      0      0 BMRU
