@@ -79,9 +79,9 @@ Enabled manager mode in  wlan1
 
 ```
 
-## What is this? {id="what-is-this"}
+## What is this? 
 
-Nowadays I have problems in enabling monotor mode. I write this code and put it on Github to help you. If you heve any issue raleated with code, start an isseue on Github using this [link](https://github.com/poseydonianexe/Monitor-Managed-mode-changer/issues) 
+Nowadays I have problems in enabling monotor mode. I write this code and put it on Github to help you. If you heve any issue raleated with code, start an isseue on Github using this [link](https://github.com/nijatmazanli/Monitor-Managed-mode-changer/issues) 
 <seealso>
 <!--Give some related links to how-to articles-->
 </seealso>
