@@ -48,7 +48,7 @@ This is list of them:
 
 ```text
 ┌──(.venv)─(user㉿user)-[~]
-└─$ ifconfig -s
+└─$ ./monitor-mode.py
 Iface      MTU    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg
 <intfc>          65536        0      0      0 0             0      0      0      0 BMU
 <intfc>          65536      697      0      0 0           697      0      0      0 LRU
